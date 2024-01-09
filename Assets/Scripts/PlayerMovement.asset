@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: PlayerMovement
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-513.7725,"y":297.3053},"zoom":0.9,"elements":[{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"speed","$type":"System.String"},"object":null},"position":{"x":-792.0,"y":24.0},"guid":"fb5dfb1a-e736-47ce-8c09-cb756e627986","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"jump","$type":"System.String"},"object":null},"position":{"x":-792.0,"y":216.0},"guid":"44ca6c02-7155-4b54-95fd-bc55269f31e4","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"speed":{"$content":12.0,"$type":"System.Single"}},"position":{"x":-624.0,"y":36.0},"guid":"282f7112-09d0-486c-9016-4df0cba0097d","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"13"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{"jump":{"$content":8.0,"$type":"System.Single"}},"position":{"x":-600.0,"y":216.0},"guid":"ec6bf5e5-7382-4ef2-9e65-7cd2a91b33db","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"16"},{"nest":{"source":"Macro","macro":2,"embed":null},"defaultValues":{"varName":{"$content":"Player","$type":"System.String"}},"position":{"x":-408.0,"y":24.0},"guid":"c6be56bc-7143-4cf0-843e-dbb164b7c316","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"speed","guid":"cd3d373f-f4bd-4908-9056-ca5a5b69c492","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"jump","guid":"7dbf4c1e-1a61-4041-a288-ff4c35a3862c","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-816.0,"yMin":-24.0,"xMax":-468.0,"yMax":156.0},"label":"Movement","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"3aa306f7-9b91-403c-875c-68ab889b1b75","$version":"A","$type":"Unity.VisualScripting.GraphGroup"},{"position":{"xMin":-828.0,"yMin":168.0,"xMax":-456.0,"yMax":360.0},"label":"Jump","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"6628a832-e3cc-471c-8abe-1208e840a05c","$version":"A","$type":"Unity.VisualScripting.GraphGroup"},{"position":{"xMin":-432.0,"yMin":-24.0,"xMax":-216.0,"yMax":132.0},"label":"Set
+      Player","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"6cd03dff-5539-4300-b320-365056cd0fb2","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c537fb9a36e53bc44a059997a8227d21, type: 2}
+    - {fileID: 11400000, guid: 46ce6a7a540a80545af44d5bd3b06d5b, type: 2}
+    - {fileID: 11400000, guid: d60aa0ffbc42ab040bbdcdc4c7a4f5fa, type: 2}
